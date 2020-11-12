@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    flex-direction: column;
+    
+}
+main{
+    
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 70px;
+    margin-left: 70px;;
+    padding: 25px;
+
+}
+footer{
+    background: #333333;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

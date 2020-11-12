@@ -1,0 +1,19 @@
+
+
+.div-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .div-span{
+     display: flex;
+     flex-direction: row;
+     margin: 20px;
+
+     &_items{
+         margin: 10px;
+         text-decoration: none;
+         color: white;
+
+     }
+ }

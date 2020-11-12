@@ -1,0 +1,17 @@
+.header-nav {
+    margin: 0;
+
+
+    &__divLogo{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+
+
+    }
+
+    &__divNav{
+        display: flex;
+        align-items: center;
+    }
+}

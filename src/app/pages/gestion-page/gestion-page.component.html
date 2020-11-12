@@ -1,0 +1,29 @@
+<h2>Creación/Edición de productos</h2>
+<div class="div-general">
+    <div class="div-form">
+        <label for="name"> Nombre del producto:
+            <input type="text" name="name" id="name"  [(ngModel)]="valueName"/>
+        </label>
+        <label for="price"> Precio:
+            <input type="text" name="price" id="price"  [(ngModel)]="valuePrice"/>
+        </label>
+        <label for="description">Descripción:
+            <input type="text" name="description" id="description"  [(ngModel)]="valueDescription"/>
+        </label>
+        <label for="urlImg">Ruta de la imagen:
+            <input type="text" name="urlImg" id="urlImg"  [(ngModel)]="valueImg"/>
+        </label>
+        <label for="opinions">Opiniones:
+            <input type="textarea" name="opinions" id="opinions"  [(ngModel)]="valueOpinions"/>
+        </label>
+        <button (click)="addNewItem()">Guardar</button>
+    </div>
+
+    <div>
+        <h3>Preview del producto:</h3>
+        <img src="{{valueImg}}" alt="">
+        <p>{{valueName}}</p>
+        <h6>{{valuePrice}}</h6>
+        <p>{{valueDescription}}</p>
+    </div>
+</div>
